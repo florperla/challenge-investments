@@ -1,0 +1,22 @@
+USE CASES
+The system should behave as the following use case when the user is willing to invest.
+
+Precondition: the user must have as minimum $28,10 in their savings account to operate with the most economical action
+ 
+Normal secuence:
+1. The user enters the system which doesn't requiere authentication with this URL https://starfish-app-lzwkc.ondigitalocean.app/.
+2. The user should visualize three different sections: 
+  a. Mis inversiones: In this section the user must see the total amount available in their savings account and every of the bought actions.
+  b. Inversiones disponibles: In this section the user must see the different options to buy and sell actions.
+  c. Valor total cartera: In this section the user must see the total value of their investments and must see a pie chart corresponding to the same.
+3. The user selects the choosen investment.
+4. The system gives them the option to sell or buy the actions.
+5. The user will be able to put the amount of actions that wants to sell or buy from the buttom o typing with the keyboard.
+6. The system must show a buttom to efect the investment.
+7. The system must show a message "Operación en proceso..." to tell the user that the request is being processed.
+8. The system must show a message "Operación realizada" to tell the user that the request is complete.
+9. The system must redirect to the screen of the previously chosen action
+
+Exceptions:
+4. If the user doesn't have bought actions, only will be able to buy.
+8. If the user sold every action of that investment, will be redirected to the main screen.
